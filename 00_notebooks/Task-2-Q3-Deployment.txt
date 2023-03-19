@@ -1,0 +1,21 @@
+Task-2-Q3: Deployment
+
+	Q3.a. To build the environment and generate the docker-compose.
+
+		- The docker-compose file can be found in this directory TechnicalAssignment_I/01-Solution-Task-2/docker-compose.yml.
+		- There is a requirements.txt file present in this directory TechnicalAssignment_I/01-Solution-Task-2/product/docs/requirements.txt, which contains the information about all the dependencies used.
+
+	Q3.b. Clone repository and create a branch of jubinben/feature-task2
+
+		- The branch is built from the master and can be accessed through this link:
+			https://github.com/roms-jp/TechnicalAssignment_I/tree/jubinben/feature-task2
+
+	Q3.c. Share the Dockerfile and dependencies to run the program and include the instructions.
+		
+		- The Dockerfile is present in the following directory:
+			TechnicalAssignment_I/01-Solution-Task-2/Dockerfile
+		- The requirements.txt file present in the following directory:
+			TechnicalAssignment_I/01-Solution-Task-2/product/docs/requirements.txt.
+		- The requirements.txt contains all the information about all the dependencies used to build the environment.
+
+	Q3.d. Create a pull-request to master along with the instructions to reproduce the environment.
