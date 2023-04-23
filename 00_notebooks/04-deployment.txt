@@ -1,0 +1,5 @@
+Deployment
+
+	To build the environment and generate the docker-compose.
+		- The docker-compose file can be found in this directory Object-detection-model-evaluation/docker-compose.yml.
+		- There is a requirements.txt file present in this directory Object-detection-model-evaluation/product/docs/requirements.txt, which contains the information about all the dependencies used.

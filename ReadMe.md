@@ -1,5 +1,5 @@
 ## About the software
-The software is made for the evaluation of the model.
+The software is made for the evaluation for the object detection model.
 Mention the directory where the test images and the labels are present inside the config.ini file which is present in product/etc/
 
 The software uses SSD-MobileNet tensorflow model as default which is present in product/models/.
@@ -53,7 +53,7 @@ Following are the definition for the same.
 
 #### Step-1. Got to the root directory
 ```commandline
-cd TechnicalAssignment_I/01-Solution-Task-2
+cd Object-detection-model-evaluation/
 ```
 
 #### Step-2. Build the docker-compose file
@@ -67,7 +67,7 @@ Just make sure to mention the data directory and the threshold values inside the
 #### Step-1. Create a virtual-environment
 #### Step-2. Go to the following directory
 ```commandline
-cd TechnicalAssignment_I/01-Solution-Task-2/product/docs/
+cd Object-detection-model-evaluation/product/docs/
 ```
 
 #### Step-3. Install the dependencies
