@@ -1,9 +1,13 @@
 ## About the software
-The software is made for the evaluation for the object detection model.
-Mention the directory where the test images and the labels are present inside the config.ini file which is present in product/etc/
+This project aims to develop a software tool for evaluating object detection models' performance on a street dataset. The dataset comprises images containing both cars and pedestrians, and the model's performance is evaluated on its ability to detect these objects separately. The primary metrics used for evaluation are mean Average Precision (mAP) and speed of inference.
 
-The software uses SSD-MobileNet tensorflow model as default which is present in product/models/.
-SSD-mobile net is trained on COCO dataset.
+The software tool is designed to be user-friendly and customizable. To run the software, the user needs to mention the directory where the test images and labels are located inside the config.ini file, located in product/etc/. This feature provides flexibility to the user to choose their desired directory location.
+
+The software uses the SSD-MobileNet TensorFlow model as the default. This pre-trained model is trained on COCO dataset, which is a large-scale object detection, segmentation, and captioning dataset. The SSD-MobileNet model is chosen for its high accuracy and generalizability on various object detection tasks.
+
+Additionally, this software tool also includes a deployment feature. To build the environment and generate the docker-compose, the user can find the docker-compose file in the directory Object-detection-model-evaluation/docker-compose.yml. The requirements.txt file, present in Object-detection-model-evaluation/product/docs/requirements.txt, provides information about all the dependencies used in this project.
+
+Overall, this project provides a comprehensive software tool for evaluating object detection models' performance on street datasets, with features such as user customization, pre-trained models, evaluation metrics, and deployment capabilities. The software's flexibility and automation streamline the evaluation process, making it easier for researchers and developers to evaluate and compare different models' performance.
 
 ### About the configurations (location -> product/etc/config.ini)
 The software uses all the parameters mentioned in the config.ini file.
